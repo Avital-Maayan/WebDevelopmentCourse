@@ -1,0 +1,111 @@
+﻿/*הגדרות בודי*/
+body {
+    display: block;
+    direction: rtl;
+    list-style-type: none;
+    background-image: url('../../images/morocco.png');
+}
+.title {
+    display: block;
+    font-size: 30px;
+    width: 150px;
+    height: 30px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+    .title:hover { font-size: 35px; 
+        width:200px;
+        height:40px;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+        text-shadow: 6px 8px 4px #12B0FF;
+    }
+/*הגדרות כלליות*/
+#container {
+    margin: 0px auto;
+    font-family: Calibri;
+    width: 960px;
+    background-color: white;
+}
+/*קביעת גודל תמונה*/
+#myImage {
+    
+    width: 700px
+}
+/*תוכן עמוד הבית*/
+#avital {
+     
+    margin: 20px auto;
+    width: 960px;
+}
+/*צבע העמוד הנוכחי בסרגל הניווט*/
+.currentPage {
+    background-color: deepskyblue;
+}
+/*סטנדרט כותרות ופסקאות*/
+p, h1, h2{
+   text-align: right;
+    color: black;
+   text-decoration: none;
+}
+h1{font-size: 30pt;}
+h2 {font-size: 14pt;}
+p{font-size: 12pt; }
+a {
+    text- font-weight: bold;
+    font-family: Calibri;
+    color:black
+}
+/*עיצוב הסרגל*/
+nav ul {
+    list-style-type: none;
+    background-color:goldenrod;
+    display: inline;
+    color: white;
+    width: 960px;
+    height: 15px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+#navfiller {
+    width: 960px;
+    display: block;
+    height: 40px;
+    padding-top: 18px;
+    background-color: goldenrod;
+}
+    #navfiller nav ul li {
+        float: right;
+        background-color: goldenrod;
+        border: 1px groove black;
+        display: inline-block;
+        position:relative;
+        bottom: 15px;
+        right: 0px;
+    }
+        #navfiller nav ul li a {
+            display: inline-block;
+            color: white;
+            width: 126px;
+            height: 40px;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+/*אינטרקציות הסרגל*/
+nav ul li a:hover {
+    background-color:lightskyblue ;
+}
+
+    nav ul li a:active {
+        background-color: black ;
+    }
+
